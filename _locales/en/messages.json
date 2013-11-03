@@ -1,0 +1,116 @@
+{
+	"share": {
+	    "message": "Share"
+	},
+	"search": {
+	    "message": "Search"
+	},
+	"hot": {
+	    "message": "Hot"
+	},
+	"hotKeywordTitle": {
+	    "message": "Key words are auto-collected."
+	},
+	"newest": {
+	    "message": "New"
+	},
+	"albumName": {
+	    "message": "Album Name"
+	},
+	"dropboxUrl": {
+	    "message": "Dropbox link"
+	},
+	"iRead": {
+	    "message": "I agree after reading"
+	},
+	"userRule": {
+	    "message": "Users Guide"
+	},
+	"reportReason": {
+	    "message": "Reason"
+	},
+	"reportInfo": {
+	    "message": "Your Contact Info"
+	},
+	"picInfo": {
+	    "message": "Description"
+	},
+	"picCategory": {
+	    "message": "Category"
+	},
+	"category": {
+	    "message": "Categories"
+	},
+	"collect": {
+	    "message": "Collect"
+	},
+	"report": {
+	    "message": "Report"
+	},
+	"add": {
+	    "message": "Add"
+	},
+	"localHint1": {
+	    "message": "If appears「www.facebook.com demands to save mass data」notice，press OK in order to use dropbox pictures。"
+	},
+	"localHint2_1": {
+	    "message": "Tutorial: Use local images, "
+	},
+	"localHint2_2": {
+	    "message": "Click Here"
+	},
+	"localHint3": {
+	    "message": "If you delete cookie, the album added will disappear."
+	},
+	"dropboxHint2_1": {
+	    "message": "Tutorial: Use Dropbox images"
+	},
+	"shareWarning1": {
+	    "message": "Please input album name"
+	},
+	"shareWarning2": {
+	    "message": "Please input dropbox link"
+	},
+	"shareWarning3": {
+	    "message": "Please agree to the users guide to proceed."
+	},
+	"shareWarning4": {
+	    "message": "Add successful!!"
+	},
+	"reportWaring1": {
+	    "message": "Please input report Reason"
+	},
+	"reportWaring2": {
+	    "message": "Report successful!!"
+	},
+	"funnyWaring1": {
+	    "message": "Please upload images"
+	},
+	"funnyWaring2": {
+	    "message": "Image description"
+	},
+	"funnyWaring3": {
+	    "message": "Please input category"
+	},
+	"funnyWaring4": {
+	    "message": "Please agree to the users guide to proceed."
+	},
+	"fsWaring": {
+	    "message": "If appears「www.facebook.com demands to save mass data」notice, press OK in order to use dropbox pictures."
+	},
+	"closeAd": {
+	    "message": "Close AD"
+	},
+	"muphinFanspage": {
+	    "message": "Muphin's fanpage"
+	},
+	"downloadMuphin": {
+	    "message": "Download Muphin"
+	},
+	"muphinWebsite": {
+	    "message": "Muphin Website"
+	},
+	"loginMuphinHint": {
+	    "message": "Please login to Muphin to show chatroom status. Enjoy!"
+	}
+}

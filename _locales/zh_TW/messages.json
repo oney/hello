@@ -1,0 +1,116 @@
+{
+	"share": {
+	    "message": "分享"
+	},
+	"search": {
+	    "message": "搜尋"
+	},
+	"hot": {
+	    "message": "熱門"
+	},
+	"hotKeywordTitle": {
+	    "message": "推薦關鍵字由系統自動統計產生"
+	},
+	"newest": {
+	    "message": "最新"
+	},
+	"albumName": {
+	    "message": "圖庫名字"
+	},
+	"dropboxUrl": {
+	    "message": "Dropbox網址"
+	},
+	"iRead": {
+	    "message": "我已經詳讀並同意遵守"
+	},
+	"userRule": {
+	    "message": "使用者規範"
+	},
+	"reportReason": {
+	    "message": "檢舉理由"
+	},
+	"reportInfo": {
+	    "message": "如有必要 請附上聯絡資訊"
+	},
+	"picInfo": {
+	    "message": "圖片描述"
+	},
+	"picCategory": {
+	    "message": "圖片分類"
+	},
+	"category": {
+	    "message": "分類"
+	},
+	"collect": {
+	    "message": "收集"
+	},
+	"report": {
+	    "message": "檢舉"
+	},
+	"add": {
+	    "message": "加入"
+	},
+	"localHint1": {
+	    "message": "若上方出現「www.facebook.com要求在您的本機電腦上永久儲存大量資料」的授權，請按確定，以使用Dropbox的貼圖。"
+	},
+	"localHint2_1": {
+	    "message": "使用自己的貼圖教學"
+	},
+	"localHint2_2": {
+	    "message": "點擊這裡"
+	},
+	"localHint3": {
+	    "message": "刪除cookies時，貼圖會全部消失，需要重新加入，請特別注意"
+	},
+	"dropboxHint2_1": {
+	    "message": "使用Dropbox貼圖教學，請"
+	},
+	"shareWarning1": {
+	    "message": "請輸入圖庫名稱"
+	},
+	"shareWarning2": {
+	    "message": "請輸入Dropbox網址"
+	},
+	"shareWarning3": {
+	    "message": "請同意使用者規範，否則不能分享Dropbox圖庫"
+	},
+	"shareWarning4": {
+	    "message": "加入成功!!"
+	},
+	"reportWaring1": {
+	    "message": "請輸入檢舉理由"
+	},
+	"reportWaring2": {
+	    "message": "檢舉成功!!"
+	},
+	"funnyWaring1": {
+	    "message": "請上傳圖片"
+	},
+	"funnyWaring2": {
+	    "message": "請輸入圖片描述"
+	},
+	"funnyWaring3": {
+	    "message": "請輸入分類"
+	},
+	"funnyWaring4": {
+	    "message": "請同意使用者規範，否則不能分享圖片"
+	},
+	"fsWaring": {
+	    "message": "請授權上方的「www.facebook.com要求在您的本機電腦上永久儲存大量資料」，點選確定"
+	},
+	"closeAd": {
+	    "message": "關閉廣告"
+	},
+	"muphinFanspage": {
+	    "message": "Muphin的粉絲專頁"
+	},
+	"downloadMuphin": {
+	    "message": "下載Muphin"
+	},
+	"muphinWebsite": {
+	    "message": "前往Muphin官網"
+	},
+	"loginMuphinHint": {
+	    "message": "請授權登入Muphin使用聊天室動態，我們不會以你的名義發文或竊取資料，請享受我們新開發的功能吧"
+	}
+}

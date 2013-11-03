@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Background Page</title>    
+    <script src="jquery.js"></script>    
+    <script src="content.js"></script>
+  </head>
+  <body>
+    <script>
+        chrome.browserAction.onClicked.addListener(function(tab) 
+        {
+            console.log("click");
+            chrome.tabs.executeScript(null, {file:"content.js"});
+        });
+        chrome.tabs.onUpdated.addListener(function( tabId , info ) {
+          //chrome.extension.getBackgroundPage().console.log('foo');
+    if ( info.status == "complete" ) {
+        // your code ...
+    }
+}
+        chrome.tabs.onActivated.addListener(function(activeInfo) {
+  // how to fetch tab url using activeInfo.tabid
+  chrome.tabs.get(activeInfo.tabId, function(tab){
+     console.log(tab.url);
+  });
+}); 
+
+    </script>
+  </body>
+</html>

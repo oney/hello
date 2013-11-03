@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+
+    "name": "TransGreat",
+    "description": "Make website more language",
+    "version": "1.0.0",
+
+    "browser_action": {
+        "default_icon": "icon38.png",
+        "default_title": "TransGreat", 
+        "default_popup": "popup.html" 
+    },
+
+    "permissions": [
+        "cookies",
+        "tabs", 
+        "http://*/*", 
+        "https://*/*", 
+        "unlimitedStorage"
+    ],
+    "background": {
+        "scripts": ["jquery.js", "background.js"]
+    },
+    "content_scripts": [ 
+        {
+            "js": [ "jquery.js", "content.js" ],
+            "css": ["style.css"],
+            "matches": [ "<all_urls>" ],
+            "run_at": "document_start"
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+    "web_accessible_resources": [ "img/*" ],
+    "default_locale": "en"
+}

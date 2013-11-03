@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>淡大網路搶(選)課小幫手</title>
+<style>
+.content{
+	width: 150px;
+}
+#transBtnImg{
+	width:100px;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+.clearfix:before,
+.clearfix:after {
+  display:table;
+  line-height:0;
+  content:"";
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.btn-block {
+white-space: normal;
+}
+.btn-lg {
+padding: 10px 19px;
+font-size: 17px;
+line-height: 1.471;
+border-radius: 6px;
+}
+.btn-info {
+color: #ffffff;
+background-color: #3498db;
+}
+.btn {
+border: none;
+font-size: 15px;
+font-weight: normal;
+line-height: 1.4;
+border-radius: 4px;
+padding: 10px 15px;
+-webkit-font-smoothing: subpixel-antialiased;
+-webkit-transition: 0.25s linear;
+transition: 0.25s linear;
+}
+.btn-block {
+display: block;
+width: 100%;
+padding-right: 0;
+padding-left: 0;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+color: #ffffff;
+background-color: #5dade2;
+border-color: #5dade2;
+}
+.btn {
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+cursor: pointer;
+background-image: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+}
+a {
+text-decoration: none;
+}
+</style>
+<script src="jquery.js"></script>
+<script src="jQueryRotateCompressed.2.2.js"></script>
+<script src="popup.js"></script>
+<!-- <link href="bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="flat-ui.css" media="screen"> -->
+</head>
+<body>
+<div class="content">
+	<div style="width:150px; height:150px;" class="clearfix">
+		<a id="transBtn" href="javascript: void(0)"><img id="transBtnImg" src="img/pencils.png"></a>
+	</div>
+	<div style="margin: 5px;"><input type="checkbox" id="yqlCheckbox">使用YQL</div>
+	<a href="#fakelink" id="editBtn" class="btn btn-block btn-lg btn-info">我來翻譯</a>
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>購買貼圖</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<style>
+body{
+    background: #efede0;
+}
+.card{
+    background-color: #fff;
+    background: rgba(255,255,255,0.98);
+    border: 1px solid #c5c5c5;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    -webkit-border-radius: 3px;
+    border: 1px solid rgba(100, 100, 100, .4);
+    -webkit-background-clip: padding-box;
+}
+.card1{
+    -webkit-border-radius: 3px 3px 0 0;
+    background: #2c2c2c;
+    height: 100px;
+    padding: 30px;
+}
+.pic{
+    width: 100px;
+}
+.picname{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.price{
+    color:#dc6441;
+    font-size: 25px;
+}
+.card3{
+    padding: 15px 30px 15px 30px;
+    background: #f9faf5;
+    height: 40px;
+}
+.card2{
+    padding: 30px;
+    -webkit-border-radius: 0 0 3px 3px;
+    background: white;
+    text-align: center;
+}
+.fb_pic{
+    height: 40px;
+    vertical-align: middle;
+}
+.fb_name{
+    font-size: 18px;
+    margin-left: 10px;
+}
+</style>
+<body>
+    <div class="content" style="width:400px;margin:100px auto 0 auto;">
+        <div class="card">
+            <div class="card1">
+                <div style="float:left;"><img class="pic"></div>
+                <div style="float:left;margin-left: 30px;"><div class="picname">Muphin貼圖</div><div class="price">NT$ 30</div></div>
+            </div>
+            <div class="card3">
+                <div style="float:left;width:200px;"><img class="fb_pic"><span class="fb_name">帳號未取得</span></div>
+                <div style="float:left;width: 130px;font-size: 12px;margin-top: 8px;">如果左方FB賬號不符，請勿付款</div>
+            </div>
+            <div class="card2">
+                <div style="margin-bottom:20px;color:#dc6441;">使用Paypal購買Muphin貼圖</div>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="custom" value="aa0001">
+                    <input type="hidden" name="hosted_button_id" value="LKGCMQYR8M7N2">
+                    <input type="image" src="https://www.paypalobjects.com/zh_TW/TW/i/btn/btn_buynowCC_LG_wCUP.gif" border="0" name="submit" alt="PayPal － 更安全、更簡單的線上付款方式！">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/zh_TW/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+                <!-- LKGCMQYR8M7N2  J8XAUQAD7NKRE -->
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="buyStickers.js"></script>
+
+</html>
